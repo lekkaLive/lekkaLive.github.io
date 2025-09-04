@@ -1,11 +1,11 @@
-/*@media(max-width: 992px){
+@media(max-width: 992px){
     div.nav, div.aside{
-        display: none;
+        display: block;
     }
     /*div.container-fluid{
         width: 50%;
     }*/
-    /*ul.oldalmenu {
+    ul.oldalmenu {
         margin: 8px;
         padding: 5px 2px 2px 5px;
         list-style: none;
@@ -13,14 +13,14 @@
     ul.egyedi{
         background-color: #fff;
         width:fit-content;        /*változtatva: unset*/
-       /* margin-top: 10px;
+        margin-top: 10px;
         border-radius: 15px;
         padding: 15px;
         gap: 10px;
         justify-content: space-between;/*változtatva*/
-       /* flex-direction: column;          /*változtatva*/
+        flex-direction: column;          /*változtatva*/
         /*align-items: end;*/
-    /*}
+    }
     form.d-flex{
         margin-top:10px;
     }
@@ -30,7 +30,7 @@
     .nav-link{
         color: brown;
     }
-}*/
+}
 @media(min-width: 992px){
     .navbar-expand-lg .navbar-nav .dropdown-menu {
         position: absolute;
