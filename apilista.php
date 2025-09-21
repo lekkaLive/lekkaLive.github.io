@@ -1,6 +1,6 @@
 <?php
     // API URL meghatározása
-    $apiUrl = "http://127.0.0.27/projectregist/apidolgozok.php?";
+    $apiUrl = "http://127.0.0.1/project/apidolgozok.php?";
 
     if (isset($_POST['apinev'])){
         $apinev = urlencode($_POST['apinev']);

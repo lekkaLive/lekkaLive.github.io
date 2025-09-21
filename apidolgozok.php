@@ -50,6 +50,6 @@ if($result){
 echo json_encode($dolgozok);
 
 // Kapcsolat lezárása
-$stmt->close();
+//$stmt->close();
 $conn->close();
 ?>
